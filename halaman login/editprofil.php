@@ -11,15 +11,20 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="navbarMedia.php?page=tutorial" class="button border-blue">Back</a></li>
         </ul>
 
-        <section>
-            <div>
-                <img src="" alt="Gambar Profile">
+        <section id="box-profile">
+            <div class="img-profile">
+                <div class="photo" style="background-image:url(../asset/gunung.jpg);"></div>
 </div>
-<div>
-    <h1>Adii</h1>
+            <div class="description">
+                 <h1>Adii</h1> 
+                 <p>Student</p>
+
+            </div>
+</section>
+    
 </body>
 
 </html>
