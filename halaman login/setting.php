@@ -11,7 +11,7 @@
 <body>
     <nav>
         <ul>
-            <li><a href="navbarMedia.php?page=tutorial" class="button border-blue">Back</a></li>
+            <li><a href="index.php?page=tutorial" class="button border-blue">Back</a></li>
         </ul>
 
         <section id="box-profile">

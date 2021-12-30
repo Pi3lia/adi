@@ -5,9 +5,9 @@ $user = "root";
 $pass = "";
 $database = "adii.register";
  
-$conn = mysqli_connect($server, $user, $pass, $database);
+$konesi = mysqli_connect($server, $user, $pass, $database);
  
-if (!$conn) {
+if (!$konesi) {
     die("<script>alert('Gagal tersambung dengan database.')</script>");
 }
  

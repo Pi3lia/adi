@@ -3,7 +3,7 @@
 session_start();
 
 // menghubungkan dengan koneksi
-include 'koneksi.php';
+include 'config.php';
 
 // menangkap data yang dikirim dari form
 $email = $_POST['email'];
@@ -20,7 +20,7 @@ $cek = mysqli_num_rows($data);
 if($cek > 0){
 	$_SESSION['username'] = $email;
 	$_SESSION['status'] = "login";
-	header("location:navbarMedia.php");
+	header("location:index.php");
 }else{
 	header("location:index.php?pesan=gagal");
 }

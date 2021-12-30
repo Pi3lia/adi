@@ -75,8 +75,8 @@
     
         
           <?php
-        include 'koneksi.php';
-        $data = mysqli_query($koneksi,"SELECT * FROM upload");
+        include 'config.php';
+        $data = mysqli_query($konesi,"SELECT * FROM upload");
 		while($b = mysqli_fetch_array($data)){
 			?>
         <div class="card" style="width: 18rem;">

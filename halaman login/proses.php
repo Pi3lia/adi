@@ -1,6 +1,6 @@
 <?php 
 // koneksi database
-include 'koneksi.php';
+include 'config.php';
 
 // menangkap data yang di kirim dari form
 $gambar = $_POST['gambar'];
@@ -14,5 +14,5 @@ echo $_POST['gambar'];
 echo $_POST['caption'];
 //print_r($tambah);
 //print_r($stock);
-header("location:navbarMedia.php")
+header("location:index.php")
 ?>

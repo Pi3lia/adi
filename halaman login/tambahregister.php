@@ -3,7 +3,7 @@
 session_start();
 
 // menghubungkan dengan koneksi
-include 'koneksi.php';
+include 'config.php';
 
 // menangkap data yang dikirim dari form
 $email = $_POST['email'];
