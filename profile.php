@@ -17,7 +17,7 @@
 </a>
 </li>
 <!-- <div class="d-grid gap-2"> -->
-<button type="button" class="btn btn-outline-dark"><a href=editprofil.php>Edit Profile</a></button>
+<button type="button" class="btn btn-outline-dark"><a href=setting.php>Edit Profile</a></button>
 </div>
 </body>
 </html>

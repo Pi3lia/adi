@@ -12,7 +12,5 @@ print_r($result);
 print_r($_POST);
 echo $_POST['gambar'];
 echo $_POST['caption'];
-//print_r($tambah);
-//print_r($stock);
 header("location:index.php")
 ?>

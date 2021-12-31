@@ -13,13 +13,13 @@
 
 		switch ($page) {
 			case 'home':
-				include "../halaman/sosmed.php";
+				include "../halaman/list.php";
 				break;
 			case 'post':
-				include "../halaman/Tambahfoto.php";
+				include "../halaman/post.php";
 				break;
 			case 'setting':
-				include "../halaman/pengaturanakun.php";
+				include "../halaman/profile.php";
 				break;		
 				case 'search':
 					include "../halaman/search.php";
@@ -29,7 +29,7 @@
 				break;
 		}
 	}else{
-		include "../halaman/sosmed.php";
+		include "../halaman/list.php";
 	}
 
 	 ?>
