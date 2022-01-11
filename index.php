@@ -13,23 +13,23 @@
 
 		switch ($page) {
 			case 'home':
-				include "../halaman/list.php";
+				include "list.php";
 				break;
 			case 'post':
-				include "../halaman/post.php";
+				include "post.php";
 				break;
 			case 'setting':
-				include "../halaman/profile.php";
+				include "profile.php";
 				break;		
 				case 'search':
-					include "../halaman/search.php";
+					include "search.php";
 					break;				
 			default:
 				echo "<center><h3>Maaf. Halaman tidak di temukan !</h3></center>";
 				break;
 		}
 	}else{
-		include "../halaman/list.php";
+		include "list.php";
 	}
 
 	 ?>
